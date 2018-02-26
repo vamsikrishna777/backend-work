@@ -7,6 +7,6 @@ print("test")
 def hello():
        return jsonify({"meesage": "test", "flag": True})
 
-
-app.run(debug=True)
+if __name__ == '__main__':
+       app.run(debug=True)
 
